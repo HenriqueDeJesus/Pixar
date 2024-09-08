@@ -38,14 +38,14 @@ let dados = [
         titulo: "Wall-E",
         descricao: "Um robô solitário que vive em um planeta Terra devastado embarca em uma aventura que pode mudar o destino da humanidade.",
         link: "https://pt.wikipedia.org/wiki/WALL-E",
-        tags: "robô futuro planeta Wall-E EVE M-O Auto Capitão B. McCrea",
+        tags: "robô futuro planeta Wall-E Wall E EVE M-O Auto Capitão B. McCrea",
         imagem: "/img_filmes/wall-E.jpg"
     },
     {
         titulo: "Up - Altas Aventuras",
         descricao: "Carl Fredricksen, um idoso viúvo, embarca em uma aventura emocionante, ao lado de um menino escoteiro e de uma casa voadora.",
         link: "https://pt.wikipedia.org/wiki/Up_(filme)",
-        tags: "balão aventura idosos animação Carl Fredricksen Russell Dug Kevin Charles Muntz",
+        tags: "balão aventura idosos animação Up Altas Aventuras Carl Fredricksen Russell Dug Kevin Charles Muntz",
         imagem: "/img_filmes/up.jpg"
     },
     {
