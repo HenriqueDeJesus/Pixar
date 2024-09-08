@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mundo Pixar</title>
+</head>
+<body>
+    <header>
+        <h1>Mundo Pixar</h1>
+        <form class="search-form" onsubmit="event.preventDefault(); pesquisar();">
+            <input type="text" id="campo-pesquisa" placeholder="Buscar filmes ou personagens...">
+            <button type="button" onclick="pesquisar()">Pesquisar</button>
+        </form>
+    </header>
+    
+    <main>
+        <section class="filmes" id="filmes">
+            <div class="filmes-header">
+                <h2>Filmes</h2>
+                <div class="filmes-scroll-buttons">
+                    <button id="scroll-left">←</button>
+                    <button id="scroll-right">→</button>
+                </div>
+            </div>
+            <div class="filmes-container">
+                <!-- Os filmes serão inseridos aqui -->
+            </div>
+        </section>
+            
+        <section class="personagens" id="personagens">
+            <div class="personagens-header">
+                <h2>Personagens</h2>
+                <div class="personagens-scroll-buttons">
+                    <button id="scroll-left-personagens">←</button>
+                    <button id="scroll-right-personagens">→</button>
+                </div>
+            </div>
+            <div class="personagens-container">
+                <!-- Os personagens serão inseridos aqui -->
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2024 Mundo Pixar | Criado com amor por Henrique</p>
+    </footer>
+
+    <script src="dados.js" defer></script> <!-- Certifique-se de incluir o script dos dados -->
+    <script src="app.js" defer></script>  <!-- Script do app.js -->
+</body>
+</html>
