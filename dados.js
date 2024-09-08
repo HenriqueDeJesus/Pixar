@@ -24,7 +24,7 @@ let dados = [
         titulo: "Os Incríveis",
         descricao: "Uma família de super-heróis aposentados precisa retornar à ação para salvar o mundo de um novo vilão.",
         link: "https://pt.wikipedia.org/wiki/The_Incredibles Mulher-Elástica Violeta Flecha Gelado",
-        tags: "super-heróis família ação Sr. Incrível",
+        tags: "super-heróis família ação Sr. Incrível Incrível Os Incriveis Flecha Violeta Mulher-Elástica Mulher Elastica Gelado",
         imagem: "/img_filmes/osIncrveis.jpg"
     },
     {
